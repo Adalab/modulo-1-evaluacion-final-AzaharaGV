@@ -4,47 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adalab Web Starter Kit</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
+
   <body>
-    <header>
-      <img />
-      <h1 class="h1-header">ANONYMOUS PROXY</h1>
-      <h2>In hac habitasse platea dictumst.</h2>
-      boton
-    </header>
-    <main>
-      <section class="first-section-main">
-        Insomnia Tips Looking Through A Window Donec accumsan, nulla ut
-        volutpatporttitor, quam odio tempus felis, at luctus ex diam nec lectus.
-        Vivamus semper sodales rutrum.
-      </section>
-      <section class="second-section-main">
-        3 Reasons To Purchase Ut sed metus
-      </section>
-    </main>
-    <footer>
-      <ul>
-        <li>ARTICLES</li>
-        <li>BOOKS</li>
-        <li>EVENTS</li>
-        <li>REASONS</li>
-        <li>TIPS</li>
-      </ul>
-      <ul>
-        <li>TWITTER</li>
-        <li>INSTAGRAM</li>
-        <li>MASTODON.SOCIAL</li>
-      </ul>
-      <ul>
-        <li>c 2017</li>
-        <li>we love components</li>
-      </ul>
-    </footer>
+    <div class="page">
+      <include src="./partials/header.html" title="Bienvenidos a Adalab"></include>
+      <include src="./partials/main.html"></include>
+      <include src="./partials/footer.html"></include>
+    </div>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

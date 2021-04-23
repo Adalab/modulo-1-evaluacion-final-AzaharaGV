@@ -3,8 +3,31 @@
   margin: 0;
   padding: 0; }
 
-.main__list {
-  padding-left: 2rem;
-  padding-bottom: 20px; }
+.code {
+  font-size: 16px;
+  background: #d8d8d8;
+  padding: 0 5px;
+  border-radius: 5px; }
+
+.link__adalab:hover {
+  background-color: #099d8d;
+  color: #fff; }
+
+.link__github:hover {
+  background-color: #CCC;
+  color: #000; }
+
+body {
+  background-color: #f3f4f5;
+  font-family: "Roboto", sans-serif; }
+
+.content-header {
+  background-color: aquamarine;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vw; }
+
+.h1-header {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
