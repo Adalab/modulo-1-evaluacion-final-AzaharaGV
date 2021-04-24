@@ -1,0 +1,57 @@
+.first-section-main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+}
+.h2-main {
+  margin-bottom: 15px;
+}
+.insomnia-button {
+  margin-top: 30px;
+  border-style: solid;
+  border-color: tomato;
+  border-width: 2px;
+  border-radius: 22.5px;
+  width: 76px;
+  height: 45px;
+  margin-bottom: 45px;
+}
+
+.general-main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.second-section-main {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr;
+  column-gap: 20px;
+  background-color: tomato;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+
+.h2b-main {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.a-grid-section {
+  grid-row: 2/3;
+  justify-self: center;
+}
+.b-grid-section {
+  grid-row: 3/4;
+  justify-self: center;
+}
+.c-grid-section {
+  grid-row: 4/5;
+  justify-self: center;
+}
+.grid-buttom {
+  grid-row: 5/6;
+  justify-self: center;
+}

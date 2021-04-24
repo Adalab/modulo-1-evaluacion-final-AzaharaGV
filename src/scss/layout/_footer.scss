@@ -1,8 +1,11 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.item-footer-1 {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-right: 15px;
+  padding-right: 15px;
+  align-items: center;
+  background-color: grey;
+  padding-top: 60px;
 }
