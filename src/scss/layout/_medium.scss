@@ -4,14 +4,14 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 30px;
+  font-family: "Roboto";
 }
 .small-main {
   color: #8ccbea;
 }
 .h2-main {
   margin-bottom: 15px;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  font-family: "RobotoSlab-Bold";
 }
 
 .p-main {
@@ -20,19 +20,22 @@
 .insomnia-button {
   margin-top: 30px;
   border-style: solid;
-  border-color: tomato;
+  border-color: #f26002;
   border-width: 2px;
   border-radius: 22.5px;
   width: 76px;
   height: 45px;
   margin-bottom: 45px;
   background-color: white;
+  font-family: "roboto";
+  color: #f26002;
 }
 
 .h2b-main {
   text-align: center;
   background-color: #eff9ff;
   padding-top: 30px;
+  font-family: "RobotoSlab-Bold";
 }
 .second-section-main {
   display: grid;
@@ -45,6 +48,7 @@
   padding-bottom: 60px;
   justify-items: center;
   align-items: center;
+  font-family: "Roboto-regular";
 }
 
 .a-grid-section {
@@ -66,11 +70,27 @@
 .grid-buttom {
   width: 184px;
   height: 40px;
-  background-color: chocolate;
+  background-color: #f26002;
   border-radius: 100px;
   color: white;
   grid-column: 2/3;
   grid-row: 5/4;
+}
+.footer-buttom {
+  background-image: url(../images/ico-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: white;
+  border-radius: 44px;
+  height: 44px;
+  width: 44px;
+  position: relative;
+  left: 45vw;
+  top: 22px;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -108,5 +128,8 @@
     grid-column: 2/3;
     grid-row: 4/5;
     justify-content: center;
+  }
+  .footer-buttom {
+    left: 50vw;
   }
 }
