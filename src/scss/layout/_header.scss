@@ -18,7 +18,12 @@
   padding-right: 50px;
   text-align: center;
   padding-top: 284px;
+  transition: color 1s linear 0.8s;
 }
+.h1-header:hover {
+  color: #f26002;
+}
+
 .h2-header {
   font-size: 16px;
   text-align: center;
@@ -39,6 +44,9 @@
   align-items: center;
   margin-left: 45%;
   background-color: white;
+}
+.header-buttom:hover {
+  background-color: #f26002;
 }
 .menu {
   background-color: #0271bc;

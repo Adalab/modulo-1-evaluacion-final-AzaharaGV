@@ -25,7 +25,11 @@
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
-  padding-top: 284px; }
+  padding-top: 284px;
+  transition: color 1s linear 0.8s; }
+
+.h1-header:hover {
+  color: #f26002; }
 
 .h2-header {
   font-size: 16px;
@@ -47,6 +51,9 @@
   align-items: center;
   margin-left: 45%;
   background-color: white; }
+
+.header-buttom:hover {
+  background-color: #f26002; }
 
 .menu {
   background-color: #0271bc;
@@ -95,6 +102,9 @@
   font-family: "roboto";
   color: #f26002; }
 
+.insomnia-button:hover {
+  background-color: #8ccbea; }
+
 .h2b-main {
   text-align: center;
   background-color: #eff9ff;
@@ -138,6 +148,10 @@
   color: white;
   grid-column: 2/3;
   grid-row: 5/4; }
+
+.grid-buttom:hover {
+  width: 164px;
+  height: 20px; }
 
 .footer-buttom {
   background-image: url(../images/ico-arrow.svg);

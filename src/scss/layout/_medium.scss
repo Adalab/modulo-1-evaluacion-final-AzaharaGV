@@ -30,6 +30,9 @@
   font-family: "roboto";
   color: #f26002;
 }
+.insomnia-button:hover {
+  background-color: #8ccbea;
+}
 
 .h2b-main {
   text-align: center;
@@ -75,6 +78,10 @@
   color: white;
   grid-column: 2/3;
   grid-row: 5/4;
+}
+.grid-buttom:hover {
+  width: 164px;
+  height: 20px;
 }
 .footer-buttom {
   background-image: url(../images/ico-arrow.svg);
