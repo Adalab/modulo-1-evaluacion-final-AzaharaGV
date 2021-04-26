@@ -56,13 +56,21 @@
   background-color: #f26002; }
 
 .menu {
+  box-sizing: content-box;
   background-color: #0271bc;
-  width: 16px;
-  height: 14px;
-  padding-left: 14px;
-  padding-right: 14px;
+  background-repeat: no-repeat;
+  background-image: url(../images/ico-menu.svg);
+  background-position: 50% 50%;
+  width: 14px;
+  height: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  position: fixed; }
+
+.draw {
+  visibility: hidden; }
 
 @media (min-width: 768px) {
   .h1-header {
