@@ -1,11 +1,33 @@
-.item-footer-1 {
+.foot {
+  background-color: #304268;
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+.item-footer {
+  padding-bottom: 45px;
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
-  list-style: none;
-  padding-right: 15px;
-  padding-right: 15px;
   align-items: center;
-  background-color: grey;
-  padding-top: 60px;
+  list-style: none;
+  font-size: 16px;
+  font-family: "roboto";
+  font-weight: 100;
+  color: white;
+  padding-bottom: 30px;
+}
+.p-14 {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .foot {
+    background-color: #304268;
+    display: flex;
+    display: inline-block;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
 }

@@ -1,13 +1,16 @@
 .content-header {
   box-sizing: border-box;
   width: 100vw;
-  background-image: url(/src/images/cover.jpg);
+  height: 100%;
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: 50% 5%;
   background-repeat: no-repeat;
   color: white;
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .h1-header {
   font-size: 42px;
@@ -21,11 +24,13 @@
   font-size: 16px;
   text-align: center;
   margin-top: 10px;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 .header-buttom {
   margin-bottom: 53px;
   margin-top: 45px;
-  background-image: url(./e-s1-final-images/ico-scroll-down.svg);
+  background-image: url(../images/ico-scroll-down.svg);
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -34,4 +39,23 @@
   height: 45px;
   align-items: center;
   margin-left: 45%;
+  background-color: white;
+}
+.menu {
+  background-color: #0271bc;
+  width: 16px;
+  height: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .h1-header {
+    font-size: 80px;
+  }
+  .h2-header {
+    font-size: 24px;
+  }
 }

@@ -9,13 +9,16 @@
 .content-header {
   box-sizing: border-box;
   width: 100vw;
-  background-image: url(/src/images/cover.jpg);
+  height: 100%;
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: 50% 5%;
   background-repeat: no-repeat;
   color: white;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 .h1-header {
   font-size: 42px;
@@ -28,12 +31,14 @@
 .h2-header {
   font-size: 16px;
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-weight: 400; }
 
 .header-buttom {
   margin-bottom: 53px;
   margin-top: 45px;
-  background-image: url(./e-s1-final-images/ico-scroll-down.svg);
+  background-image: url(../images/ico-scroll-down.svg);
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -41,7 +46,23 @@
   width: 45px;
   height: 45px;
   align-items: center;
-  margin-left: 45%; }
+  margin-left: 45%;
+  background-color: white; }
+
+.menu {
+  background-color: #0271bc;
+  width: 16px;
+  height: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+@media (min-width: 768px) {
+  .h1-header {
+    font-size: 80px; }
+  .h2-header {
+    font-size: 24px; } }
 
 .first-section-main {
   display: flex;
@@ -50,8 +71,16 @@
   padding-right: 15px;
   padding-top: 30px; }
 
+.small-main {
+  color: #8ccbea; }
+
 .h2-main {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.p-main {
+  color: #4a4a4a; }
 
 .insomnia-button {
   margin-top: 30px;
@@ -61,53 +90,109 @@
   border-radius: 22.5px;
   width: 76px;
   height: 45px;
-  margin-bottom: 45px; }
-
-.general-main {
-  padding-left: 15px;
-  padding-right: 15px; }
-
-.second-section-main {
-  padding-left: 15px;
-  padding-right: 15px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 4fr;
-  -moz-column-gap: 20px;
-  column-gap: 20px;
-  background-color: tomato;
-  padding-top: 30px;
-  margin-bottom: 60px; }
+  margin-bottom: 45px;
+  background-color: white; }
 
 .h2b-main {
   text-align: center;
-  margin-bottom: 45px; }
+  background-color: #eff9ff;
+  padding-top: 30px; }
+
+.second-section-main {
+  display: grid;
+  grid-template-columns: 90px 140px 90px;
+  grid-template-rows: 93px 93px 93px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: #eff9ff;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  justify-items: center;
+  align-items: center; }
 
 .a-grid-section {
-  grid-row: 2/3;
+  grid-column: 2/3;
+  grid-row: 1/2;
   justify-self: center; }
 
 .b-grid-section {
-  grid-row: 3/4;
+  grid-column: 2/3;
+  grid-row: 2/3;
   justify-self: center; }
 
 .c-grid-section {
-  grid-row: 4/5;
+  grid-column: 2/3;
+  grid-row: 3/4;
   justify-self: center; }
 
 .grid-buttom {
-  grid-row: 5/6;
-  justify-self: center; }
+  width: 184px;
+  height: 40px;
+  background-color: chocolate;
+  border-radius: 100px;
+  color: white;
+  grid-column: 2/3;
+  grid-row: 5/4; }
 
-.item-footer-1 {
+@media (min-width: 768px) {
+  .small-main {
+    font-size: 14px; }
+  .h2-main {
+    font-size: 26px;
+    padding-bottom: 30px; }
+  .first-section-main {
+    padding-left: 39px;
+    padding-right: 39px; }
+  .second-section-main {
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    -moz-column-gap: 15px;
+    column-gap: 15px; }
+  .a-grid-section {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .b-grid-section {
+    grid-column: 2/3;
+    grid-row: 2/3; }
+  .c-grid-section {
+    grid-column: 3/4;
+    grid-row: 2/3; }
+  .grid-buttom {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-content: center; } }
+
+.foot {
+  background-color: #304268;
+  padding-top: 60px;
+  padding-bottom: 5px; }
+
+.item-footer {
+  padding-bottom: 45px;
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
-  list-style: none;
-  padding-right: 15px;
-  padding-right: 15px;
   align-items: center;
-  background-color: grey;
-  padding-top: 60px; }
+  list-style: none;
+  font-size: 16px;
+  font-family: "roboto";
+  font-weight: 100;
+  color: white;
+  padding-bottom: 30px; }
+
+.p-14 {
+  font-size: 14px; }
+
+@media (min-width: 768px) {
+  .foot {
+    background-color: #304268;
+    display: flex;
+    display: inline-block;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row-reverse; } }
 
 /*# sourceMappingURL=main.css.map */
