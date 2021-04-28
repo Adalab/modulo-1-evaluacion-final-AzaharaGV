@@ -213,7 +213,24 @@
     grid-row: 4/5;
     justify-content: center; }
   .footer-buttom {
-    left: 50vw; } }
+    left: 50vw; }
+  .plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; } }
+
+.pricing {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  background-color: #304268;
+  color: #ffffff;
+  padding-right: 30px;
+  padding-left: 30px; }
 
 .foot {
   background-color: #304268;
