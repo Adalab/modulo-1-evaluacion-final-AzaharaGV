@@ -21,9 +21,9 @@
 
 .h1-header {
   font-size: 42px;
-  font-family: "RobotoSlab" bold;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-family: "RobotoSlab", bold;
+  margin-left: 15px;
+  margin-right: 15px;
   text-align: center;
   padding-top: 284px;
   transition: color 1s linear 0.8s; }
@@ -35,8 +35,7 @@
   font-size: 16px;
   text-align: center;
   margin-top: 10px;
-  font-family: "Roboto";
-  font-weight: 400; }
+  font-family: "RobotoSlab"; }
 
 .header-buttom {
   margin-bottom: 53px;
@@ -74,10 +73,19 @@
 
 @media (min-width: 768px) {
   .h1-header {
-    font-size: 80px; }
+    font-size: 80px;
+    margin-left: 39px;
+    margin-right: 39px; }
   .h2-header {
     font-size: 24px;
-    font-weight: 100; } }
+    font-weight: 100;
+    margin-left: 39px;
+    margin-right: 39px; } }
+
+@media (min-width: 1280px) {
+  .h1-header {
+    margin-left: 275px;
+    margin-right: 275px; } }
 
 .first-section-main {
   display: flex;
@@ -92,7 +100,7 @@
 
 .h2-main {
   margin-bottom: 15px;
-  font-family: "RobotoSlab-Bold"; }
+  font-family: "RobotoSlab", bold; }
 
 .p-main {
   color: #4a4a4a; }
@@ -113,12 +121,6 @@
 .insomnia-button:hover {
   background-color: #8ccbea; }
 
-.h2b-main {
-  text-align: center;
-  background-color: #eff9ff;
-  padding-top: 30px;
-  font-family: "RobotoSlab-Bold"; }
-
 .second-section-main {
   display: grid;
   grid-template-columns: 90px 140px 90px;
@@ -132,6 +134,11 @@
   justify-items: center;
   align-items: center;
   font-family: "Roboto-regular"; }
+
+.h2b-main {
+  grid-column: 1/1;
+  grid-row: 1/3;
+  justify-self: center; }
 
 .a-grid-section {
   grid-column: 2/3;
@@ -151,9 +158,9 @@
 .grid-buttom {
   width: 184px;
   height: 40px;
-  background-color: #f26002;
+  background-color: .grid-buttom orange;
   border-radius: 100px;
-  color: white;
+  color: #ffffff;
   grid-column: 2/3;
   grid-row: 5/4; }
 
