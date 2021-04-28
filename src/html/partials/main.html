@@ -1,40 +1,38 @@
-<main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <include
-        src="./link.html"
-        aClass="link__adalab"
-        text="Adalab"
-        url="https://adalab.es"
-      ></include>
-    </li>
-    <li>
-      <include src="./link.html" text="Más info del starter kit" url="./more-info.html"></include>
-    </li>
-  </ul>
+<main class="general-main">
+  <section class="first-section-main">
+    <small class="small-main">Insomnia Tips</small>
+    <h2 class="h2-main">Looking Through A Window</h2>
+    <p class="p-main">
+      Donec accumsan, nulla ut volutpatporttitor, quam odio tempus felis, at
+      luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+    </p>
+    <button class="insomnia-button">GO</button>
+  </section>
+  <section class="pricing">
+   <h3>pricing</h3>
+   <div class="plan">
+   <h4>plan normal</h4> 
+   <h4>plan premium</h4> 
+  </div>
+    </section>
+  </section>
+  <section class="second-section-main">
+    <div class="h2b-main" id="h2b-main">3 Reasons To Purchase</div>
+    <div class="a-grid-section">
+      <strong class="minititle-grid">Ut sed metus</strong>
+      <p>Lorem ipsum dolor sit amet, consecteur.</p>
+    </div>
+    <div class="b-grid-section">
+      <strong class="minititle-grid">Curabitur ac erat </strong>
+      <p>Mauris mattis urna quis lorem molestie.</p>
+    </div>
+    <div class="c-grid-section">
+      <strong class="minititle-grid"> Morbi dictum </strong>
+      <p>Aliquam in dolor et dolor tincidunt.</p>
+    </div>
+    <button class="grid-buttom">More reasons</button>
+  </section>
+  <a class="footer-buttom" href="#start">
+    <img class="draw" src="../images/ico-arrow" />
+  </a>
 </main>

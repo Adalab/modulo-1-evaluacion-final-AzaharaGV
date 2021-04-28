@@ -1,0 +1,35 @@
+.foot {
+  background-color: #304268;
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+.item-footer {
+  padding-bottom: 45px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-family: "roboto-regular";
+  font-weight: 100;
+  color: white;
+  padding-bottom: 30px;
+}
+.link {
+  color: white;
+}
+.p-14 {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .foot {
+    background-color: #304268;
+    display: flex;
+    display: inline-block;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+}

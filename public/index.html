@@ -3,69 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Azahara Evalución Final Módulo 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
-
   <body>
     <div class="page">
       <header>
-        <div class="content-header">
+        <div class="content-header" id="start">
+          <a class="menu" href="http://adalab.es/" target="_blank" title="menu">
+            <img class="draw" src="../images/ico-menu.svg" alt="svgmenu" />
+          </a>
           <h1 class="h1-header">ANONYMOUS PROXY</h1>
           <h2 class="h2-header">In hac habitasse platea dictumst.</h2>
-          <button class="header-buttom">Boton</button>
+          <a class="header-buttom" href="#h2b-main">
+            <img class="draw" src="../images/ico-scroll-down.svg" />
+          </a>
         </div>
       </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
+      <main class="general-main">
+        <section class="first-section-main">
+          <small class="small-main">Insomnia Tips</small>
+          <h2 class="h2-main">Looking Through A Window</h2>
+          <p class="p-main">
+            Donec accumsan, nulla ut volutpatporttitor, quam odio tempus felis, at
+            luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+          </p>
+          <button class="insomnia-button">GO</button>
+        </section>
+        <section class="pricing">
+         <h3>pricing</h3>
+         <div class="plan">
+         <h4>plan normal</h4> 
+         <h4>plan premium</h4> 
+        </div>
+          </section>
+        </section>
+        <section class="second-section-main">
+          <div class="h2b-main" id="h2b-main">3 Reasons To Purchase</div>
+          <div class="a-grid-section">
+            <strong class="minititle-grid">Ut sed metus</strong>
+            <p>Lorem ipsum dolor sit amet, consecteur.</p>
+          </div>
+          <div class="b-grid-section">
+            <strong class="minititle-grid">Curabitur ac erat </strong>
+            <p>Mauris mattis urna quis lorem molestie.</p>
+          </div>
+          <div class="c-grid-section">
+            <strong class="minititle-grid"> Morbi dictum </strong>
+            <p>Aliquam in dolor et dolor tincidunt.</p>
+          </div>
+          <button class="grid-buttom">More reasons</button>
+        </section>
+        <a class="footer-buttom" href="#start">
+          <img class="draw" src="../images/ico-arrow" />
+        </a>
       </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
+      <footer class="foot">
+        <nav class="item-footer">
+           <a class="link" href="http://adalab.es/" target="_blank" title="articles">ARTICLES<a>                       
+           <a class="link" href="http://adalab.es/" target="_blank" title="books">BOOKS</a>
+           <a class="link" href="http://adalab.es/" target="_blank" title="events">EVENTS</a>
+           <a class="link"href="http://adalab.es/">REASONS</a>
+           <a class="link" href="http://adalab.es/" target="_blank" title="tips">TIPS</a>
+        </nav>
+        <nav class="item-footer">
+           <a class="link"href="http://twitter.es/" target="_blank"title="twitter">TWITTER</a>
+           <a class="link"href="http://instagram.es/" target="_blank"title="instagram">INSTAGRAM</a>
+           <a class="link"href="http://adalab.es/" target="_blank" title="mastodontsocial">MASTODON.SOCIAL</a>
+        </nav>
+        <nav class="item-footer">
+           <p class="p-14">&copy; 2021</p>
+           <p class="p-14">we love components</p>
+        </nav>
+        </nav>
       </footer>
 
     </div>
-    <script src="./assets/js/main.js"></script>
   </body>
 </html>
